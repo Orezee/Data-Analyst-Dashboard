@@ -1,3 +1,2 @@
-# Enhancing Data Integrity and Accuracy in Hospital 
-Patient Records 
-I developed a comprehensive project in Excel, Creating a Dashboard and tables that analyze the data. this process involved several stages, including Preprocessing, Data cleaning and Data Visualization.
+# Enhancing Data Integrity and Accuracy in Hospital Patient Records 
+The hospital has observed frequent issues with incomplete and inaccurate patient records,including missing demographic information, inconsistent diagnosis data, and incorrect admission or discharge dates. These data gaps are affecting the hospital’s ability to make informed decisions, monitor patient outcomes, and report accurate statistics to health authorities.
