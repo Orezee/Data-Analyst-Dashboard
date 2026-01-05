@@ -16,3 +16,11 @@ PatientID, Name, Gender, Age, Diagnosis, Doctor, Ward, State, Admission_Date, Di
 |P0481|Ahmed Bello|Female|51 |Covid_19|Dr.M.Bello|Emergency|Lagos|2025-03-09| 2025-03-17|  8|  Valid | 
 
 |P0450| Ali Musa| Male|63| Tyhoid| Dr.J.Eze| Surgical| Kano|2023-03-23| 2023-03-23| 10 Valid
+
+Performed in Excel
+Convert date to proper date_time format
+removed missing and invalid values
+calculated new calculated column
+* Length of Stay (LOS)
+* LOS Category
+  
