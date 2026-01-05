@@ -1,4 +1,14 @@
 # Enhancing Data Integrity and Accuracy in Hospital Patient Records 
+## Table of Contents
+- [Project Summary](Project-Summary)
+- [Project Objectives](Project-Objectives)
+- [Tools & Technologies](Tools--Technologies)
+- [Dataset Overview](Dataset-Overview)
+- [Data Cleaning process](Data-Cleaning-Process)
+- [Excel Dashboard](Excel-Dashboard)
+- [Key Insights](Key-Insights)
+- [Recommendation](Recommendation)
+
 ## Project Summary
 This project analyzes  frequent issues with incomplete and inaccurate patient records,including missing demographic information, inconsistent diagnosis data, and incorrect admission or discharge dates. These data gaps are affecting the hospital’s ability to make informed decisions, monitor patient outcomes, and report accurate statistics to health authorities.
 ## Project Objectives
@@ -25,6 +35,11 @@ PatientID, Name, Gender, Age, Diagnosis, Doctor, Ward, State, Admission_Date, Di
 - Convert date to proper date_time format
 - Removed missing and invalid values
 - Calculated new calculated column  - Length of Stay (LOS) - LOS Category
+  <img width="1103" height="122" alt="Dashboard 8" src="https://github.com/user-attachments/assets/56babbe7-3df9-419a-a8ef-25bda7e90f3f" />
+
+### Dashboard
+ <img width="653" height="347" alt="dashboard 7" src="https://github.com/user-attachments/assets/8d985c8a-c8c5-4bb2-8acf-d303bcbda747" />
+
 ### Key Insight
 - A significant number of patients have no assigned Doctors, making it difficult to track care responsibility and delaying clinical reviews. Also, accountability will be difficult in case of complications (1.20%). 
 - Analysis of the Length of Stay (LOS) Category by Patient ID shows that 76.20% of patient records are valid, while 23.80% are invalid. It contains date inconsistencies that prevent the accurate calculation of the Length of Stay. Such a high proportion of invalid LOS data raises concerns about data quality, workflow efficiency, and the reliability of operational reporting.
