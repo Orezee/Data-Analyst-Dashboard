@@ -25,4 +25,7 @@ PatientID, Name, Gender, Age, Diagnosis, Doctor, Ward, State, Admission_Date, Di
 - Convert date to proper date_time format
 - Removed missing and invalid values
 - Calculated new calculated column  - Length of Stay (LOS) - LOS Category
-  
+### Key Insight
+- A significant number of patients have no assigned Doctors, making it difficult to track care responsibility and delaying clinical reviews. Also, accountability will be difficult in case of complications (1.20%). 
+- Analysis of the Length of Stay (LOS) Category by Patient ID shows that 76.20% of patient records are valid, while 23.80% are invalid. It contains date inconsistencies that prevent the accurate calculation of the Length of Stay. Such a high proportion of invalid LOS data raises concerns about data quality, workflow efficiency, and the reliability of operational reporting.
+- Missing 18.8% of discharge records creates operational inefficiency, financial losses, compliance challenges, and clinical risks for the hospital. Without accurate discharge dates, beds may appear occupied when they are actually free, causing a delay in giving those beds to new patients. This leads to longer wait times for both emergency and scheduled admissions, ultimately lowering hospital efficiency and patient satisfaction.
